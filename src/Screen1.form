@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Screen1">
+  <grid id="27dc6" binding="rootPanel1" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="21" width="550" height="469"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="81ed1" binding="rootPanel11" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-2698796"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1d415" class="javax.swing.JButton" binding="buttonHide">
+            <constraints/>
+            <properties>
+              <actionCommand value="-"/>
+              <background color="-2698796"/>
+              <horizontalTextPosition value="0"/>
+              <maximumSize width="35" height="25"/>
+              <minimumSize width="20" height="20"/>
+              <opaque value="false"/>
+              <preferredSize width="20" height="20"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d4d1b" class="javax.swing.JButton" binding="buttonExit">
+            <constraints/>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-2698796"/>
+              <horizontalTextPosition value="0"/>
+              <maximumSize width="35" height="25"/>
+              <minimumSize width="25" height="25"/>
+              <opaque value="false"/>
+              <preferredSize width="20" height="20"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="ff77" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+        <constraints border-constraint="East"/>
+        <properties/>
+      </component>
+      <grid id="fee7" binding="rootPanel12" custom-create="true" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="372ff" class="javax.swing.JTextPane" binding="textPaneJavaGram" custom-create="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <alignmentX value="1.0"/>
+              <maximumSize width="170" height="250"/>
+              <minimumSize width="150" height="120"/>
+              <opaque value="false"/>
+              <preferredSize width="166" height="235"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="47852" class="javax.swing.JTextPane" binding="textPaneImmutable">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font name="Fira Code" size="16"/>
+              <foreground color="-593420"/>
+              <margin top="20" left="14" bottom="3" right="3"/>
+              <maximumSize width="300" height="150"/>
+              <minimumSize width="200" height="45"/>
+              <opaque value="false"/>
+              <preferredSize width="250" height="100"/>
+              <text value="Введите код страны и номер вашего мобильного телефона"/>
+            </properties>
+          </component>
+          <component id="2b154" class="javax.swing.JButton" binding="buttonContinue">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <actionCommand value="   "/>
+              <background color="-16728348"/>
+              <font name="Fira Code" size="20"/>
+              <foreground color="-593420"/>
+              <hideActionText value="false"/>
+              <iconTextGap value="10"/>
+              <maximumSize width="250" height="55"/>
+              <minimumSize width="250" height="45"/>
+              <preferredSize width="250" height="50"/>
+              <text value="   ПРОДОЛЖИТЬ"/>
+            </properties>
+          </component>
+          <component id="bd1b2" class="javax.swing.JTextPane" binding="textPaneNumberPhone" custom-create="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="36"/>
+              <foreground color="-593420"/>
+              <margin top="5" left="29" bottom="3" right="3"/>
+              <maximumSize width="300" height="90"/>
+              <minimumSize width="300" height="60"/>
+              <opaque value="false"/>
+              <preferredSize width="300" height="75"/>
+              <text value="+7"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

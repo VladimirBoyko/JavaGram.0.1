@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ButtonPlusContact">
+  <grid id="27dc6" binding="rootPanelButton" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <opaque value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="f9d70" binding="rootPanel36" layout-manager="FlowLayout" hgap="15" vgap="10" flow-align="0">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-12828863"/>
+          <opaque value="false"/>
+          <preferredSize width="40" height="60"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a3708" class="javax.swing.JButton" binding="buttonAddContact">
+            <constraints/>
+            <properties>
+              <background color="-16728348"/>
+              <horizontalTextPosition value="0"/>
+              <maximumSize width="30" height="30"/>
+              <minimumSize width="30" height="30"/>
+              <opaque value="false"/>
+              <preferredSize width="30" height="30"/>
+              <selected value="true"/>
+              <text value=""/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

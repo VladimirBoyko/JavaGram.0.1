@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UserMessageForm">
+  <grid id="27dc6" binding="rootPanelMessage" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="80"/>
+    </constraints>
+    <properties>
+      <enabled value="false"/>
+      <maximumSize width="500" height="80"/>
+      <minimumSize width="500" height="80"/>
+      <opaque value="false"/>
+      <preferredSize width="500" height="80"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="3f7aa" binding="rootPanel" custom-create="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <maximumSize width="500" height="80"/>
+          <minimumSize width="500" height="80"/>
+          <opaque value="false"/>
+          <preferredSize width="500" height="80"/>
+        </properties>
+        <border type="none">
+          <color color="-4473925"/>
+        </border>
+        <children>
+          <grid id="1bb66" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <maximumSize width="1000" height="1000"/>
+              <minimumSize width="315" height="70"/>
+              <opaque value="false"/>
+              <preferredSize width="315" height="70"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="758ba" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+                <constraints border-constraint="South"/>
+                <properties>
+                  <opaque value="false"/>
+                  <preferredSize width="45" height="20"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="8350f" class="javax.swing.JLabel" binding="timeLabel">
+                    <constraints/>
+                    <properties>
+                      <font name="Fira Code" size="12"/>
+                      <foreground color="-6250342"/>
+                      <text value="время"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="b4016" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="4b9c9" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <opaque value="false"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="3a392" binding="rightPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <maximumSize width="7" height="11"/>
+                          <minimumSize width="7" height="11"/>
+                          <opaque value="false"/>
+                          <preferredSize width="7" height="11"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                      <grid id="1a6ea" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="Center"/>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <grid id="97da4" binding="topPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints border-constraint="North"/>
+                            <properties>
+                              <maximumSize width="308" height="8"/>
+                              <minimumSize width="308" height="8"/>
+                              <opaque value="false"/>
+                              <preferredSize width="308" height="8"/>
+                            </properties>
+                            <border type="none"/>
+                            <children/>
+                          </grid>
+                          <grid id="81718" binding="botPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints border-constraint="South"/>
+                            <properties>
+                              <maximumSize width="308" height="8"/>
+                              <minimumSize width="308" height="8"/>
+                              <opaque value="false"/>
+                              <preferredSize width="308" height="8"/>
+                            </properties>
+                            <border type="none"/>
+                            <children/>
+                          </grid>
+                          <component id="69ca4" class="javax.swing.JTextArea" binding="textPane">
+                            <constraints border-constraint="Center"/>
+                            <properties>
+                              <background color="-16668709"/>
+                              <editable value="false"/>
+                              <font name="Fira Code" size="14"/>
+                              <foreground color="-1"/>
+                              <margin top="5" left="10" bottom="5" right="5"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

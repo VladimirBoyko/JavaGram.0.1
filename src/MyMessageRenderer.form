@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MyMessageRenderer">
+  <grid id="27dc6" binding="rootPanel" custom-create="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+    <constraints>
+      <xy x="20" y="20" width="500" height="80"/>
+    </constraints>
+    <properties>
+      <maximumSize width="500" height="80"/>
+      <minimumSize width="500" height="80"/>
+      <opaque value="false"/>
+      <preferredSize width="500" height="80"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="7adc2" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints/>
+        <properties>
+          <maximumSize width="315" height="70"/>
+          <minimumSize width="315" height="70"/>
+          <opaque value="false"/>
+          <preferredSize width="315" height="70"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="8d57b" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints border-constraint="South"/>
+            <properties>
+              <opaque value="false"/>
+              <preferredSize width="45" height="20"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="2cdb5" class="javax.swing.JLabel" binding="timeLabel">
+                <constraints/>
+                <properties>
+                  <font name="Fira Code" size="12"/>
+                  <foreground color="-6250342"/>
+                  <text value="время"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="6abbb" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="966c0" binding="rightPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="East"/>
+                <properties>
+                  <maximumSize width="8" height="12"/>
+                  <minimumSize width="8" height="12"/>
+                  <opaque value="false"/>
+                  <preferredSize width="8" height="12"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="eff1" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="870d2" binding="topPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <maximumSize width="307" height="9"/>
+                      <minimumSize width="307" height="9"/>
+                      <opaque value="false"/>
+                      <preferredSize width="307" height="9"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="64315" binding="botPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="South"/>
+                    <properties>
+                      <maximumSize width="307" height="9"/>
+                      <minimumSize width="307" height="9"/>
+                      <opaque value="false"/>
+                      <preferredSize width="307" height="9"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <component id="98be3" class="javax.swing.JTextArea" binding="textPane">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-11845205"/>
+                      <font name="Fira Code" size="14"/>
+                      <foreground color="-1"/>
+                      <lineWrap value="true"/>
+                      <margin top="5" left="10" bottom="5" right="5"/>
+                      <wrapStyleWord value="false"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
